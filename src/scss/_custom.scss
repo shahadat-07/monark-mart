@@ -1,1 +1,24 @@
 @import "../../node_modules/bootstrap/scss/bootstrap.scss";
+// MY THEME COLOR
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+$pink-dark: #ff324d;
+//secondary-color:
+
+// OVERRIDE VARIABLES
+
+$primary: $pink-dark;
+$secondary: $gray-900;
+
+// .dropdown-toggle::after {
+//   display: none !important;
+// }
+
+//Background Override
+
+.bg-primary {
+  background-color: $primary !important;
+}

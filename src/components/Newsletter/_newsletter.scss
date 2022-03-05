@@ -1,0 +1,32 @@
+.newsletter {
+  h2 {
+    font-family: "Roboto", sans-serif;
+  }
+
+  form {
+    position: relative;
+  }
+
+  input {
+    &::placeholder {
+      font-size: 1rem;
+      font-weight: 500;
+      color: $gray-500;
+    }
+  }
+  &__btn {
+    position: absolute;
+    right: 5px;
+    top: 4.5px;
+
+    background-color: $gray-800;
+    color: $white;
+    padding: 11px 30px;
+    transition: all 0.3s;
+
+    &:hover {
+      background-color: $secondary;
+      color: $white;
+    }
+  }
+}

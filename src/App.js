@@ -1,12 +1,14 @@
 import React from "react";
+import Home from "./components/Home/Home";
 import './scss/main.css';
 
 
 function App() {
+
   return (
-    <div>
-      <h1>Monark Mart</h1>
-    </div>
+    <section>
+    <Home />
+    </section>
   );
 }
 

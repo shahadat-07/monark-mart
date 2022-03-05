@@ -1,0 +1,19 @@
+.midbar {
+  form {
+    position: relative;
+  }
+
+  &__submit {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+
+  &__icon a svg {
+    font-weight: 100;
+  }
+
+  &__icon a:not(:last-child) {
+    margin-right: 15px;
+  }
+}

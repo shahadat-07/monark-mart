@@ -11258,4 +11258,110 @@ fieldset:disabled .btn {
     display: none !important;
   }
 }
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.bg-primary {
+  background-color: #ff324d !important;
+}
+
+.topbar {
+  background-color: #1d2224;
+}
+
+.topbar span {
+  font-size: 14px;
+}
+
+.topbar__offer {
+  border-right: 1px solid #ddd;
+}
+
+.topbar__dropdown {
+  text-decoration: none;
+}
+
+@media (max-width: 767.98px) {
+  .topbar {
+    display: none;
+  }
+}
+
+.midbar form {
+  position: relative;
+}
+
+.midbar__submit {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.midbar__icon a svg {
+  font-weight: 100;
+}
+
+.midbar__icon a:not(:last-child) {
+  margin-right: 15px;
+}
+
+.hero {
+  background-color: red;
+}
+
+.banner a {
+  overflow: hidden;
+  position: relative;
+  display: block;
+}
+
+.newsletter h2, .newsletter .h2 {
+  font-family: "Roboto", sans-serif;
+}
+
+.newsletter form {
+  position: relative;
+}
+
+.newsletter input::-webkit-input-placeholder {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #adb5bd;
+}
+
+.newsletter input:-ms-input-placeholder {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #adb5bd;
+}
+
+.newsletter input::-ms-input-placeholder {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #adb5bd;
+}
+
+.newsletter input::placeholder {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #adb5bd;
+}
+
+.newsletter__btn {
+  position: absolute;
+  right: 5px;
+  top: 4.5px;
+  background-color: #343a40;
+  color: #fff;
+  padding: 11px 30px;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.newsletter__btn:hover {
+  background-color: #212529;
+  color: #fff;
+}
 /*# sourceMappingURL=main.css.map */
